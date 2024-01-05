@@ -18,5 +18,5 @@ addButtonEl.addEventListener("click", function() {
     
     push(shoppingListInDB, inputValue)
     
-    console.log(inputValue)
+    console.log()
 })
