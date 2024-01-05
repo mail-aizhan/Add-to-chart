@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    background-color: #EEF0F4;
+    background-color: #3e6cc8;
     
     
 }
@@ -10,13 +10,27 @@ html, body {
     display:flex;
     flex-direction: column;
     max-width: 320px;
-    margin:100px auto;
+    margin:200px auto;
+   
 }
 
+img{
+    width:150px;
+    margin:0 auto;
+    border-radius: 8px;
+}
 input {
     
     color: #432000;
-    background-color: #DCE1EB
+    background-color: #DCE1EB;
+    border:0;
+    outline: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin:10px 0;
     
 }
 
@@ -24,5 +38,11 @@ button {
     
     color: #FDFDFD;
     background-color: #AC485A;
-    
+    border:0;
+    outline: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
